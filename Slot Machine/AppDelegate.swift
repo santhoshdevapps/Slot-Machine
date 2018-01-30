@@ -1,10 +1,12 @@
-//
-//  AppDelegate.swift
-//  Slot Machine
-//
-//  Created by santhosh damodharan on 2018-01-29.
-//  Copyright © 2018 santhosh damodharan. All rights reserved.
-//
+/*
+ * File Name : ViewController.swift
+ * Name : Santhosh Damodharan, Akshit upneja, Aman Preet Kaur
+ * Date : 2017-12-06
+ * StudentID : 300964037, 300976590, 300966930
+ * Description : Slot machine - A simple slot machine game 
+ * Version : 1.0
+ */
+
 
 import UIKit
 
