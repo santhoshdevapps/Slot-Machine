@@ -18,16 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slot_machine_bg" translatesAutoresizingMaskIntoConstraints="NO" id="rlb-d1-euN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="rlb-d1-euN">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_jackpot.png" translatesAutoresizingMaskIntoConstraints="NO" id="q6U-vY-GDr">
-                                <rect key="frame" x="16" y="218" width="343" height="231"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Machine head.png" translatesAutoresizingMaskIntoConstraints="NO" id="q6U-vY-GDr">
+                                <rect key="frame" x="82" y="157" width="210" height="162"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rlb-d1-euN" firstAttribute="centerX" secondItem="q6U-vY-GDr" secondAttribute="centerX" id="0QT-7V-sj5"/>
+                            <constraint firstItem="rlb-d1-euN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="0RL-6f-db1"/>
+                            <constraint firstAttribute="trailing" secondItem="rlb-d1-euN" secondAttribute="trailing" id="5aT-GV-b6E"/>
+                            <constraint firstItem="rlb-d1-euN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8g0-QT-64V"/>
+                            <constraint firstItem="q6U-vY-GDr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="MGE-31-4i1"/>
+                            <constraint firstItem="q6U-vY-GDr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="dtK-hS-aHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q6U-vY-GDr" secondAttribute="bottom" constant="348" id="ngf-eB-N96"/>
+                            <constraint firstItem="rlb-d1-euN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ywo-JM-8gh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -37,7 +46,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_jackpot.png" width="346" height="231"/>
-        <image name="slot_machine_bg" width="375" height="670"/>
+        <image name="Machine head.png" width="149" height="109"/>
+        <image name="background" width="387" height="678"/>
     </resources>
 </document>

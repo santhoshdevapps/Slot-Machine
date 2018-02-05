@@ -1,7 +1,7 @@
 /*
  * File Name : ViewController.swift
- * Name : Santhosh Damodharan, Akshit upneja, Aman Preet Kaur
- * Date : 2017-12-06
+ * Author's Name : Santhosh Damodharan, Akshit upneja, Aman Preet Kaur
+ * Date : 2018-1-29
  * StudentID : 300964037, 300976590, 300966930
  * Description : Slot machine - A simple slot machine game
  * Version : 1.0
@@ -17,7 +17,7 @@ class ViewController: UIViewController,UIPickerViewDataSource, UIPickerViewDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "slot_machine_bg.jpeg")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
